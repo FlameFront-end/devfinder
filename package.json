@@ -2,6 +2,8 @@
   "name": "devfinder",
   "version": "0.1.0",
   "private": true,
+  "author": "FlameFront-end",
+  "homepage": "https://flamefront-end.github.io/devfinder/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -10,6 +12,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "component": "generate-react component"
   },
   "eslintConfig": {
@@ -36,6 +39,7 @@
     "@types/react-dom": "18.0.6",
     "generate-react-cli": "^7.3.0",
     "sass": "^1.54.5",
-    "typescript": "4.4.2"
+    "typescript": "4.4.2",
+    "gh-pages": "^4.0.0"
   }
 }
